@@ -5,7 +5,6 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 import ttkbootstrap
 
-
 # Function to get weather information from OpenWeatherMap API
 def get_weather(city):
     API_key = "30d1cf22246548cc78b54c5d020f6ba4"

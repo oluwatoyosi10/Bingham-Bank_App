@@ -5,7 +5,6 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 import ttkbootstrap
 
-
 # Function to get weather information from OpenWeatherMap API
 def get_weather(city):
     API_key = "30d1cf22246548cc78b54c5d020f6ba4"
@@ -51,7 +50,7 @@ def search():
 
 
 root = ttkbootstrap.Window(themename="morph")
-root.title("Weather App")
+root.title("Weather Live")
 root.geometry("400x400")
 
 # Create an entry widget -> to enter the city name
